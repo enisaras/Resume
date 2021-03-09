@@ -1,0 +1,203 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Enis Aras} \\ \vspace{1pt}
+    \small 518-961-70-35 $|$ \href{mailto: arasenis@gmail.com}{\underline{arasenis@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/enis-aras}{\underline{linkedin.com/in/enis-aras}} $|$
+    \href{https://github.com/enisaras}{\underline{github.com/enisaras}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rensselaer Polytechnic Instute}{Troy, NY}
+      {Bachelor of Science in Computer Science, Minor in Finance}{Fall 2020 -- May 2022}
+      \resumeItemListStart
+       \resumeItem{Learned about topics related to algorithms like dynamic programming, divide and conquer, NP-completeness and graph theory and designed many algorithms aimed to solve real life problems.}
+       \resumeItem{Learned about Computer systems organization topics such as processors, memory, I/O with the help of C language as well as digital logic topics like Boolean algebra and logic gates.}
+       \resumeItem{Learned about introductory Matrix Algebra topics like matrix algebra and systems of linear equations, vectors and linear transformations in $R^n$, eigenvectors and eigenvalues, and their applications in engineering and science.}
+       \resumeItemListEnd
+    \resumeSubheading
+      {Hudson Valey Community College}{Troy, NY}
+      {Associate's in Computer Science}{May 2019 -- May 2020}
+        \resumeItemListStart
+        \resumeItem{Learned about data structures like stacks, queues, lists, trees, and collections and their proper application using Java programming language.}
+        \resumeItem{Learned about features of the C++ programming language including class design and data structures.}
+       \resumeItem{Learned about topics including logic, relations, partial order, equivalence relations, lattices, Boolean algebra, graph theory, and predicate calculus. Gained a strong knowledge of proofs such as inductive, direct, contradiction, contraposition and exhaustion.}
+       \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Developer at Quantify }{November 2020 -- Present}
+      {Contract}{Niskayuna, NY}
+      \resumeItemListStart
+        \resumeItem{Worked with clients to convert their existing trading trading strategies into algorithms that can be automatically traded using platforms like QuantConnect and Alpaca.}
+        \resumeItem{Visualized many trading strategies and back tested them using the platform TradingView and their scripting language Pine Script.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{The Archives(Under Development)} $|$ \emph{Python, AWS API Gateway, React, SQL}}{January 2021 -- Present}
+          \resumeItemListStart
+            \resumeItem{A Star Wars HTTP API containing all the data from the Star Wars lore including movies, TV shows and games.}
+            \resumeItem{Aimed to be a fun and easy to use API for students and programmers new to using HTTP APIs.}
+            \resumeItem{Complete documentation and many examples to help students and programmers get into the world of using APIs using data from the greatest franchise of all time.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Discord Betting Bot(Under Development)} $|$ \emph{Node, Discord.js, React, MangoDB}}{November 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{A virtual betting bot that uses real life sports betting odds to let users bet on their favorite teams.}
+            \resumeItem{Features a complete MangoDB database that stores data ranging from each bet made to amount of coins each user currently has.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL , JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Django, JUnit, JQuery} \\
+     \textbf{Developer Tools}{: Git, TravisCI, Amazon Web Services, Vim, Visual Studio, PyCharm Eclipse, QuantConnect,Ubuntu} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, Selenium}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
